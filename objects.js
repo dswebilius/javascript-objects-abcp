@@ -10,4 +10,6 @@ function removeFromPlaylist (obj, key) {
 }
 function removeFromPlaylist (obj, key) {
     return delete obj.key;
+    return obj
 }
+
